@@ -772,9 +772,10 @@ public class Style {
    */
   private void validateState(String methodCall) {
     if (!fullyLoaded) {
+       /*
       throw new IllegalStateException(
         String.format("Calling %s when a newer style is loading/has loaded.", methodCall)
-      );
+      );*/
     }
   }
 
